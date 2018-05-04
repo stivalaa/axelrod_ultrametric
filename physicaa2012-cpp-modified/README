@@ -1,0 +1,11 @@
+Jens Pfau's c++ code for his Physica A paper from
+
+http://ww2.cs.mu.oz.au/~pfauj/physicaa2012/physicaa2012-cpp.zip
+
+modified by Alex Stivala to paralleize on MPI system using mpi4py
+in conjunction with physica2012-python-mpi (modified version of Jens's 
+Python scripts)
+
+
+ADS
+Mon Oct 15 15:03:59 EST 2012

@@ -1,0 +1,32 @@
+Jens Pfau's c++ code for his Physica A paper from
+
+http://ww2.cs.mu.oz.au/~pfauj/physicaa2012/physicaa2012-cpp.zip
+
+modified by Alex Stivala to paralleize on MPI system using mpi4py
+in conjunction with physica2012-python-mpi (modified version of Jens's 
+Python scripts)
+
+Version with new teriminatino criteria [function stop2()] that should
+terminate ONLY at actual equilibrium not just when no state change since
+last timestep.
+
+Have corrected stop2(), this version checks equilirbium
+condition s = 1 \/ s = 0 \/ s < theta,  (s is culture similarity)
+and in addition,
+also checks that social link weights (w) are correspondingly 0 or 1, ie
+
+(s(i,j) = 1 /\ w(i,j) = 1) \/ (s(i,j) = 0 /\ w(i,j) = 0) \/ 
+ (s(i,j) < theta /\ w(i,j) = 0)
+
+for all pairs of agents (i,j).
+
+This version has the new definition of theta threshold, ie that 
+instead of no interaction happening if similarity < theta, it is a 
+failed intertaction. So something happens at every iteration.
+
+Also runngin with only beta_s = 1 not 10 has values > 1 are too slow to
+converge.
+
+ADS
+Wed Mar 27 09:31:41 EST 2013
+
