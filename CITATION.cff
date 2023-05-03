@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Stivala"
+  given-names: "Alex"
+  orcid: "https://orcid.org/0000-0002-2442-4743"
+- family-names: "Robins"
+  given-names: "Garry"
+- family-names: "Kashima"
+  given-names: "Yoshihisa"
+- family-names: "Kirley"
+  given-names: "Michael"
+title: "Ultrametric distribution of culture vectors in an extended Axelrod model of cultural dissemination"
+url: https://github.com/stivalaa/axelrod_ultrametric
+preferred-citation:
+  type: article
+  title: "Ultrametric distribution of culture vectors in an extended Axelrod model of cultural dissemination"
+  authors:
+    - family-names: "Stivala"
+      given-names: "Alex"
+      orcid: "https://orcid.org/0000-0002-2442-4743"
+    - family-names: "Robins"
+      given-names: "Garry"
+    - family-names: "Kashima"
+      given-names: "Yoshihisa"
+    - family-names: "Kirley"
+      given-names: "Michael"
+  doi: 10.1038/srep04870
+  journal: Scientific Reports
+  year: 2014
+  volume: 4
+  start: 4870
