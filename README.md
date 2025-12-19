@@ -5,6 +5,8 @@ Ultrametric distribution of culture vectors in an extended Axelrod model of cult
 
 Imported from https://sites.google.com/site/alexdstivala/home/ultrametric_axelrod
 
+Also available from Zenodo with DOI: [![DOI](https://zenodo.org/badge/132073080.svg)](https://doi.org/10.5281/zenodo.17993338)
+
 
 This software is free under the terms of the GNU General Public License.
 It is a modified version of the 
